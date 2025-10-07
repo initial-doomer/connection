@@ -1,4 +1,4 @@
-function Connect-Ps1 {
+function ConnectPs1 {
     param(
         [string]$IP,
         [int]$PORT
@@ -31,3 +31,4 @@ function Connect-Ps1 {
         }
     }
 }
+
